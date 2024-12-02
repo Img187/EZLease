@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZLease</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar Sectie -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">EZLEASE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Aanvraag</a>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">Informatie</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+<main>
+    <div class="aanvraag__container">
+        <h1>Doe nu uw aanvraag!</h1>
+        <form>
+            <label for="name_cu">Naam</label>
+            <section class="name_cu">
+            <input type="text" required>
+            </section>
+            <label for="sur_cu">Achternaam</label>
+            <section class="sur_cu">
+            <input type="text" required>
+            </section>
+            <label for="cell_cu">Telefoon</label>
+            <section class="cell_cu">
+            <input type="number" id="number" name="amount" value="06" required maxlength="10">
+            </section>
+            <label for="KvK">KvK Nummer</label>
+            <section class="KvK">
+            <input type="text" required minlength="8" maxlength="10">
+            </section>
+            <section class="info_cu">
+            <label for="info_cu">Beschrijving</label>
+            <br>
+            <textarea id="extra" name="extra" rows="10" cols="30"></textarea>
+            </section>
+            <section class="submit_button">
+            <input class="sumbit_bu" type="submit" value="Verstuur" minlength="3" maxlength="3000">
+            </section>
+        </form>
+    </div>
+
+    <section class="stappen">
+    <div class="stp1">
+        <h2>Stap 1</h2>
+    </div>
+    <div class="stp2">
+        <h2>Stap 2</h2>        
+    </div>
+    <div class="stp3">
+        <h2>Stap 3</h2>  
+    </div>
+    </section>
+
+</main>
+
+
+
+<footer>
+    
+</footer>
+
+<script src="app.js"></script>
+</body>
+    
+
+
+</html>
