@@ -1,0 +1,4 @@
+Links:
+https://getbootstrap.com/docs/4.3/layout/grid/
+https://code.visualstudio.com/docs/setup/linux
+https://www.w3schools.com
